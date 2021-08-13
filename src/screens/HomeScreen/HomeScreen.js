@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeScreen.css";
 
 import Navbar from "../../components/Navbar/Navbar";
+import Banner from "../../components/Banner/Banner";
 
 function HomeScreen() {
 	return (
@@ -9,7 +10,7 @@ function HomeScreen() {
 			{/* Navbar */}
 			<Navbar />
 			{/* Banner */}
-
+			<Banner />
 			{/* Row */}
 		</div>
 	);
