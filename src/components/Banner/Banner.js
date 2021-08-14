@@ -23,8 +23,6 @@ function Banner() {
 		fetchMovieData();
 	}, []);
 
-	console.log(movie);
-
 	const truncateDescription = (string, n) => {
 		return string?.length > n ? string.substr(0, n - 1) + "..." : string;
 	};
